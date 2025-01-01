@@ -11,8 +11,10 @@
 <body>
 
     <header>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPSfo_U7RCvXg941Hj7DUYRn7T1ZnIQzgiag&s" alt="College Logo">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPSfo_U7RCvXg941Hj7DUYRn7T1ZnIQzgiag&s"
+            alt="College Logo">
         <nav>
+            <a href="#home">Home</a>
             <a href="#about">About Us</a>
             <a href="#academics">Academics</a>
             <a href="#admissions">Admissions</a>
@@ -32,6 +34,34 @@
     </div>
 
     <div class="main-content">
+        <section id="events">
+            <h2>Events</h2>
+            <div class="events-gallery">
+                <marquee behavior="scroll" direction="left" scrollamount="5" onmouseover="this.stop();"
+                    onmouseout="this.start();">
+                    <div class="event">
+                        <div class="event-title">SAWCHH UDGIR SUNDER UDGIR</div> <img
+                            src="https://scontent.fndc2-1.fna.fbcdn.net/v/t39.30808-6/460609795_3911563549166924_8729335608745487147_n.jpg?stp=dst-jpg_p526x395_tt6&_nc_cat=107&ccb=1-7&_nc_sid=cf85f3&_nc_ohc=_u7ak62cRogQ7kNvgE86fdG&_nc_zt=23&_nc_ht=scontent.fndc2-1.fna&_nc_gid=A1mkFTEY6BnEwwLnV6fv41c&oh=00_AYCUYTWg8v0renTk1mh-O-h4YRgeXXY9VoEqclbXeNqq8w&oe=677B42CD"
+                            alt="Event 1">
+                    </div>
+                    <div class="event">
+                        <div class="event-title">Gathering</div> <img
+                            src="https://scontent.fndc2-1.fna.fbcdn.net/v/t39.30808-6/460770832_3911563849166894_7152242867812249956_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=cf85f3&_nc_ohc=ifaz-u6JkqMQ7kNvgEm7lE4&_nc_zt=23&_nc_ht=scontent.fndc2-1.fna&_nc_gid=AEq_yfOGbDXCmFYXgAQgKUr&oh=00_AYCO2gVI3tcZiiGh_rjk-GxGndjgAPbfw0kO9foFXYL8Gw&oe=677B4E21"
+                            alt="Event 2">
+                    </div>
+                    <div class="event">
+                        <div class="event-title">AIDS JAN JAGRUTI DIN 1 DEC -2015</div> <img
+                            src="https://scontent.fndc2-1.fna.fbcdn.net/v/t39.30808-6/460660670_3911563202500292_4321262571486298581_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=cf85f3&_nc_ohc=Nbokek72AWMQ7kNvgGUh4p9&_nc_zt=23&_nc_ht=scontent.fndc2-1.fna&_nc_gid=A1mkFTEY6BnEwwLnV6fv41c&oh=00_AYDnLGGy3qna4lyQ85cVp9UoB9ESuOQgjQN0-f3ilGNb8w&oe=677B588B"
+                            alt="Event 3">
+                    </div>
+                    <div class="event">
+                        <div class="event-title">प्रजासत्ताक दिन</div> <img
+                            src="https://scontent.fndc2-1.fna.fbcdn.net/v/t39.30808-6/460846101_3916033818719897_8667060167805623364_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=gtk89b-caNcQ7kNvgFDQI0O&_nc_zt=23&_nc_ht=scontent.fndc2-1.fna&_nc_gid=AEXFvvfwQP0j1rwb1y_UuWt&oh=00_AYC2JWGzAmXqEEKkfoNVbJ2nweS8CTmUdOl83u_yGbJqvw&oe=677B4F0C"
+                            alt="Event 4">
+                    </div> <!-- Add more events as needed -->
+                </marquee>
+            </div>
+        </section>
         <section id="news">
             <h2>News and Announcements</h2>
             <p>Stay updated with the latest news, achievements, and events at our college.</p>
@@ -42,14 +72,24 @@
             <p>Discover our popular and unique programs designed to ignite your passion for learning.</p>
         </section>
 
-        <section id="testimonials">
-            <h2>Student Testimonials</h2>
-            <p>Hear from our students and alumni about their experiences at our college.</p>
-        </section>
 
         <section id="quick-links">
             <h2>Quick Links</h2>
-            <p>Access frequently visited pages like course catalogs, faculty profiles, and the student portal with ease.
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <div class="quick-links-grid">
+                    <div class="quick-link"> <img src="link:/image" alt="Course Catalog Icon"> <a
+                            href="#course-catalog">Course Catalog</a> </div>
+                    <div class="quick-link"> <img src="link:/image" alt="Faculty Profiles Icon"> <a
+                            href="#faculty-profiles">Faculty Profiles</a> </div>
+                    <div class="quick-link"> <img src="link:/image" alt="Student Portal Icon"> <a
+                            href="#student-portal">Student Portal</a> </div>
+                    <div class="quick-link"> <img src="link:/image" alt="Admissions Icon"> <a
+                            href="#admissions">Admissions</a> </div>
+                    <div class="quick-link"> <img src="link:/image" alt="Events Icon"> <a href="#events">Events</a>
+                    </div> <!-- Add more quick links as needed -->
+                </div>
+            </div>
             </p>
         </section>
     </div>
@@ -77,16 +117,51 @@
         </div>
     </div>
 
+
+    <div class="quote-box">
+        <marquee behavior="scroll" direction="left" scrollamount="8">
+            <div class="quote"> <img
+                    src="https://w7.pngwing.com/pngs/175/481/png-transparent-a-p-j-abdul-kalam-president-of-india-indian-institute-of-management-shillong-scientist-27-july-scientist-people-india-scientist-thumbnail.png"
+                    alt="Person 1">
+                <div class="quote-content">
+                    <p>"You have to dream before your dreams can come true."</p>
+                    <div class="author">- A. P. J. Abdul Kalam</div>
+                </div>
+            </div>
+            <div class="quote"> <img
+                    src="data:image/jpeg;base64,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"
+                    alt="Person 2">
+                <div class="quote-content">
+                    <p>"If something's important enough, you should try. Even if - the probable outcome is failure."</p>
+                    <div class="author">- Elon Musk</div>
+                </div>
+            </div>
+            <div class="quote"> <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEZrHo8W6EbxhdNhLCEyPp2btboz21UpMJO9jzU9KWy_kzUl6z6W1OAaix6oUy3aBFJ6g&usqp=CAU"
+                    alt="Person 3">
+                <div class="quote-content">
+                    <p>"Great power comes with great responsiablities."</p>
+                    <div class="author">- Aunt may</div>
+                </div>
+            </div> <!-- Add more quotes as needed -->
+        </marquee>
+    </div>
+
     <footer>
-        <p>Contact Information: Phone:9385748855, Email: matrubhoomicollage@gmail.com</p>
-        <p>Follow us on:
-            <a href="https://www.facebook.com/matrubhoomicollege/">Facebook</a> |
-            <a href="[Social Media Link 2]">Twitter</a> |
-            <a href="https://www.instagram.com/explore/locations/1515589882097648/matrubhoomi-mahavidyalayaudgir/nearby/">Instagram</a>
-        </p>
+        <p>Contact Information: Phone: 960796659 Email: sr.usture@gmail.com</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/matrubhoomicollege/" target="_blank"><img
+                    src="https://cdn-icons-png.flaticon.com/128/733/733547.png" alt="Facebook" width="30"></a>
+            <!-- <a href="[Social Media Link 2]" target="_blank"><img src="link:/image" alt="Twitter" width="30"></a>  -->
+            <a href="https://www.instagram.com/explore/locations/1515589882097648/matrubhoomi-mahavidyalayaudgir/nearby/"
+                target="_blank"><img src="https://cdn-icons-png.flaticon.com/128/2111/2111463.png" alt="Instagram"
+                    width="30"></a>
+        </div>
         <p><a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
     </footer>
 
+
+    <script src="animationscript.js"></script>
 </body>
 
 </html>

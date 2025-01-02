@@ -32,7 +32,7 @@ nav a {
 }
 
 .hero {
-    background-image: url('link:/image');
+    background-image: url('https://scontent.fndc2-1.fna.fbcdn.net/v/t39.30808-6/358708990_589250343323811_7765425547728645875_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=p0fSBrDJVzAQ7kNvgH_fxvd&_nc_zt=23&_nc_ht=scontent.fndc2-1.fna&_nc_gid=AawVGAG7qZU3F7WcWbquT9H&oh=00_AYBwpL8z-SwoLOBYwp4GtYL3Q2oXWwULthYgXzXVD8jRRQ&oe=677C641E');
     background-size: cover;
     background-position: center;
     color: white;
@@ -43,11 +43,11 @@ nav a {
 .hero h1 {
     font-size: 3em;
     margin: 0;
-    color: #777;
+    /* color: #777; */
 }
 
 .hero p {
-    color: #777;
+    /* color: #777; */
     margin-bottom: 50px;
     font-size: 1.5em;
 }
@@ -86,6 +86,8 @@ nav a {
     display: flex;
     justify-content: space-around;
     margin: 20px;
+    width: 80%;
+    margin: auto;
     text-align: center;
 }
 
@@ -148,7 +150,8 @@ footer .social-icons a {
 
 
 .quote-box {
-    width: 100%;
+    margin: auto;
+    width: 80%;
     padding: 20px;
     background-color: #f4f4f4;
     text-align: center;
@@ -267,6 +270,8 @@ footer .social-icons a {
 }
 
 .quick-link {
+    display: flex;
+    flex-direction: column;
     background-color: #f4f4f4;
     border-radius: 10px;
     padding: 20px;
@@ -284,6 +289,7 @@ footer .social-icons a {
 .quick-link img {
     width: 50px;
     height: 50px;
+    margin: auto;
     margin-bottom: 10px;
 }
 

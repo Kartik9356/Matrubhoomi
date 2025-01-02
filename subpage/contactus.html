@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Matrubhoomi Mahavidyalaya</title>
+    <style>
+         *{
+        margin: 0;padding: 0;
+    }
+        
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3fa1ff;
+    color: white;
+}
+
+header img {
+    border-radius: 50%;
+    height: 50px;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background-color: #004d99;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .section {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            color: #004d99;
+            margin-top: 0;
+        }
+        .section p {
+            margin: 10px 0;
+        }
+        .contact-info p {
+            margin: 10px 0;
+        }
+        .contact-info a {
+            color: #004d99;
+            text-decoration: none;
+        }
+        .form-container {
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        .form-container label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        .form-container input, .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .form-container button {
+            background-color: #004d99;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .form-container button:hover {
+            background-color: #003366;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPSfo_U7RCvXg941Hj7DUYRn7T1ZnIQzgiag&s"
+            alt="College Logo">
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="/subpage/aboutus.html">About Us</a>
+            <a href="#academics">Academics</a>
+            <a href="#admissions">Admissions</a>
+            <a href="/subpage/syllabus.html">Syllabus</a>
+            <a href="/subpage/contactus.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="header">
+            <h1>Contact Us</h1>
+        </div>
+
+        <div class="section contact-info">
+            <h2>Get in Touch</h2>
+            <p>If you have any questions or need more information, feel free to reach out to us:</p>
+            <p><strong>Phone:</strong> +91 9960627734</p>
+            <p><strong>Email:</strong> <a href="mailto:matrubhoomi@gmail.com">matrubhoomi@gmail.com</a></p>
+            <p><strong>Address:</strong> Behind LIC Office, Degloor Road, Udgir, Latur District, Maharashtra, India</p>
+            <p><strong>Follow us on:</strong> <a href="https://www.facebook.com/matrubhoomicollege/" target="_blank">Facebook</a></p>
+        </div>
+
+        <div class="section form-container">
+            <h2>Contact Form</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
